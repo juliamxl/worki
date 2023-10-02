@@ -7,6 +7,7 @@ const config: Config = {
     './src/app/**/*.{js,ts,jsx,tsx,mdx}',
   ],
   theme: {
+    
     extend: {
       backgroundImage: {
         'gradient-radial': 'radial-gradient(var(--tw-gradient-stops))',
@@ -16,13 +17,8 @@ const config: Config = {
     },
 
     fontFamily: {
-      sans: [
-        'Inter var, sans-serif',
-        {
-          fontFeatureSettings: '"cv11", "ss01"',
-          fontVariationSettings: '"opsz" 32',
-        },
-      ],
+      sans: 'var(--font-roboto)',
+      alt: 'var(--font-bai-janjuree)',
     },
   },
   plugins: [],
